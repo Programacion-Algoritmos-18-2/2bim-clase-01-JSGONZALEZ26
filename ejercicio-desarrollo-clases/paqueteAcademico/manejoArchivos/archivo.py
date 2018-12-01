@@ -19,5 +19,5 @@ class MiArchivoEscribir:
 	def agregarInformacion(self, e):
 		self.archivo.write("%-10s : %-4.2f\n" % (e.getNombre(), e.obtenerPromedio()))
 
-	def cerrar_archivo(self):
+	def cerrarArchivo(self):
 		self.archivo.close()

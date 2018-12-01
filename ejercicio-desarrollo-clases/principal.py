@@ -15,3 +15,6 @@ for d in lista:
 	e.CalcularPromedio(float(d[1]), float(d[2]), float(d[3]))
 	print(e)
 	a2.agregarInformacion(e)
+
+a.cerrarArchivo()
+a2.cerrarArchivo()
